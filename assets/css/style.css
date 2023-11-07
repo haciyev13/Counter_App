@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(15, 15, 33);
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content {
+    text-align: center;
+}
+
+.counter,
+.number {
+    color: #fff;
+}
+
+.number {
+    font-size: 50px;
+    padding-top: 20px;
+    font-weight: 600;
+}
+
+.counter h1 {
+    font-size: 3.5rem;
+    letter-spacing: 1px;
+}
+
+.btn {
+    padding-top: 20px;
+}
+
+.btn button {
+    border-radius: 5px;
+    background-color: #dcf279;
+    padding: 7px 18px;
+    font-size: 18px;
+}
